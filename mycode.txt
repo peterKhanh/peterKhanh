@@ -1,7 +1,12 @@
-Tooi la khanh
-Tooi dang lam viec
-Thu Git
+python django-admin startproject mystore
 
-Theem noi dung
+python manage.py startapp members
 
+python manage.py startapp members
+
+python  manage.py runserver
+
+python manage.py migrate
+
+python manage.py makemigrations members
 
