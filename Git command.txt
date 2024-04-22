@@ -4,7 +4,8 @@ $ git config --global user.email tkhn2020@gmail.com
 $ git config --global user.name peterKhanh
 
 
-git remote add 
+git remote add origin https://github.com/peterKhanh/PythonWebDjango.git
+
 
 $ git remote set-url origin https://github.com/peterKhanh/peterKhanh.git		// thay doi repository
 
