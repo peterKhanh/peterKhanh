@@ -1,3 +1,18 @@
+<<<<<<< HEAD
 Tooi la khanh
 Tooi dang lam viec
 Thu Git
+=======
+python django-admin startproject mystore
+
+python manage.py startapp members
+
+python manage.py startapp members
+
+python  manage.py runserver
+
+python manage.py migrate
+
+python manage.py makemigrations members
+
+>>>>>>> a04f3f6aeaa07835f19715d4274cb0b6b5262fb2
