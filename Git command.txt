@@ -1,0 +1,64 @@
+Dang nhap 
+
+$ git config --global user.email tkhn2020@gmail.com
+$ git config --global user.name peterKhanh
+
+
+git remote add origin https://github.com/peterKhanh/PythonWebDjango.git
+
+
+$ git remote set-url origin https://github.com/peterKhanh/peterKhanh.git		// thay doi repository
+
+$ git pull origin main --allow-unrelated-histories					//
+
+
+git config --get remote.origin.url   		//To obtain only the remote URL:  
+
+git remote show origin
+
+Tạo một liên kết
+Giả sử kho chứa từ xa có địa chỉ url (https hoặc ssh) cần tạo ra liên kết đến nó đặt tên là remote-name thì thực hiện lệnh
+
+git remote add remote-name url
+Xóa một địa chỉ remote
+git remote rm remote-name
+Đổi tên địa chỉ remote
+git remote rename ten-cu ten-moi
+Xem thông tin về Remote
+Sử dụng lệnh git remote show, ví dụ xem remote origin:
+
+
+Để liệt kê các liên kết sử dụng lệnh
+
+git remote
+Hiện thị thông tin chi tiết hơn, có thêm đường dẫn đến remote Repo
+
+git remote -v
+
+
+2. Tạo Project với Git
+
+- clone 1 Project có sẵn
+=> git clone link_https
+
+
+ - tạo 01 Project trên Github
+- Tạo Project Local và đẩy lên Github
+
+3 . https / ssh
+
+4. Các câu lệnh thường dùng
+
+- git status
+- git add
+- git commit
+- git push
+
+5.  làm việc nhóm
+
+- git pull
+- git merge
+- git config
+- git checkout branch / commit
+
+
