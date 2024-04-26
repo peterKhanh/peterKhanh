@@ -61,4 +61,8 @@ git remote -v
 - git config
 - git checkout branch / commit
 
+Branch
+
+git branch d ten_nhanh		// xoa 01 nhanh
+
 
